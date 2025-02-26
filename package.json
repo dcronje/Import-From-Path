@@ -1,6 +1,6 @@
 {
   "name": "import-from-path",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Import From Path",
   "main": "build/index.js",
   "scripts": {
@@ -9,10 +9,14 @@
     "pub": "npm version patch --force && npm publish --registry=https://npm.sih.services"
   },
   "keywords": [
-    "Simple",
-    "GraphQL",
-    "Server"
+    "Dynamic Import",
+    "Recursive Import",
+    "Promise Import"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcronje/Import-From-Path"
+  },
   "author": "Drew Cronje",
   "license": "ISC",
   "files": [
